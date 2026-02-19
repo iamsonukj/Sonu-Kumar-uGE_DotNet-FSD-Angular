@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    color: #004080;
+}
+
+.service-card {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #004080;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+}
+
+.services p {
+    color: #333;
+}
+
+button:hover {
+    background-color: #004080;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+section {
+    margin: 30px 0;
+}

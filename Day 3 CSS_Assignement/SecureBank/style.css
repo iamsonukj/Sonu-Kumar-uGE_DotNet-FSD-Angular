@@ -1,0 +1,16 @@
+.card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+button:active {
+    background-color: navy;
+    color: white;
+}

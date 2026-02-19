@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Selectors Example</title>
+
+    <style>
+        .container div p {
+            color: red;
+        }
+        .container > p {
+            color: blue;
+        }
+        input[type="text"] {
+            border: 2px solid green;
+            padding: 5px;
+        }
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <p>Paragraph 1</p>
+        <div>
+            <p>Paragraph 2</p>
+        </div>
+    </div>
+
+    <br>
+
+    <input type="text" placeholder="Enter text here" required>
+
+    <br><br>
+
+    <button>click Me</button>
+
+</body>
+</html>
